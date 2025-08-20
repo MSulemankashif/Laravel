@@ -5,9 +5,17 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function showUser(){
-        return '<h1>Hello from Controller</h1>';
+    // Method
+     public function getUser(){
+        return "Suleman";
     }
 
+    public function printData(){
+        return "This is fromController";
+    }
 
-}
+    function getUserName($name){
+        echo "The name is $name";
+        return  view('about'); 
+    }
+};
