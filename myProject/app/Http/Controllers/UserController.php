@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     // Method
-     public function getUser(){
-        return "Suleman";
+     public function getUser($name){
+        return $name;
     }
 
     public function printData(){
