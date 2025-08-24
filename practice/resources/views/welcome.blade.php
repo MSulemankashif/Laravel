@@ -11,5 +11,6 @@
 <body>
 <h1>Hello laravel 12</h1>
 <a href="/about" class="btn btn-primary">Go to About Page</a>
+<h1>User name is {{$user}}</h1>
 </body>
 </html>
