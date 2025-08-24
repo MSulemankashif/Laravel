@@ -10,4 +10,12 @@ class UserController extends Controller
     function getUser(){
         return view('about');
     }
+
+    function home(){
+        return view('welcome');
+    }
+
+    function adminLogin(){
+        return view('admin.login');
+    }
 }
