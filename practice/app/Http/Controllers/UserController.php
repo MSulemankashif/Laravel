@@ -18,8 +18,8 @@ class UserController extends Controller
     }
 
     function adminLogin(){
-        if(View::exists('admin.login')){
-            return view('admin.login');
+        if(View::exists('admin.signup')){
+            return view('admin.signup');
         }else{
             echo "View not found";
         }
