@@ -7,7 +7,7 @@ class UserController extends Controller
 {
     // Method
      public function getUser($name){
-        return $name;
+        return view('user', ['name' => $name]);
     }
 
     public function printData(){

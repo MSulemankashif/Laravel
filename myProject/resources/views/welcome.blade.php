@@ -11,6 +11,7 @@
 </head>
 <body>
   <button>Hello World</button>
+<h1>Hello {{$name}}</h1>
 
     
 </body>

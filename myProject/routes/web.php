@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 // Using Controllers
-Route::get( 'user', [UserController::class, "getUser"]);
-Route::get('about/{name}',[UserController::class, "printData"]);
-Route::get('welcome', [UserController::class, "getUser"]);
+Route::get( 'user/{name}', [UserController::class, "getUser"]);
+Route::get('about',[UserController::class, "printData"]);
+
 
