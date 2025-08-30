@@ -8,5 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about', [UserController::class, 'getUser']);
-Route::get('/home/{user}', [UserController::class, "home"]);
+Route::get('/home/{user}', [UserController::class, "home"])->name("homePage");
 Route::get('/adminLogin', [UserController::class, "adminLogin"]);
